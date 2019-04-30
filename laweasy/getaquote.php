@@ -84,6 +84,7 @@
 							<tr><td><br/></td></tr>
 							<tr align="center">
 								<td colspan="4" align="center"><input type="submit" name="submit" id="btn" value="Submit"></td>
+								
 							</tr>
 						</table>
 				</fieldset>
@@ -114,16 +115,17 @@
 				if ($con->query($sql) === TRUE) {
 
 				}
-				else{
-					echo 'Error!';
+				else {
+					echo 'error';
 				}
+		     
 		
-		$message = "Your contact information is saved successfully.";
 	}
 	
        
 	if(isset($_POST['submit']))
 	{
+		echo '<br>you will recieve suggestion of best lawyers near your area and in area of law you selected via email</br>';
 		AddCompanyRegistrationData();
 	}
 ?>

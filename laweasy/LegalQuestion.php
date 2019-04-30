@@ -139,6 +139,7 @@
 	}
 	if(isset($_POST['submit']))
 	{
+		echo '<br>you will recieve suggestion of best lawyers near your area and in area of law you selected via email</br>';
 		AddCompanyRegistrationData();
 	}
 ?>
