@@ -16,7 +16,7 @@
 
 				<fieldset style="width:450px;height:auto;margin:auto;margin-top:85px;border-radius:4px;">
 					<legend align="center"><b>Get A Qoute </legend>
-					<h1>What kind of legal issue are you facing?</h1>
+					<h1>Receive quotations for your legal need</h1>
 					<br />
 					
 						
