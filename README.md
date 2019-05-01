@@ -1,2 +1,2 @@
 # LawEasy
-your trusted legal partner
+Your Trusted Legal Partner
