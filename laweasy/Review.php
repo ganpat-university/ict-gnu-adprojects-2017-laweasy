@@ -20,7 +20,7 @@
 						
 						<table style="margin:0 auto;">
 							<tr>
-								<td colspan="2">Lawyer Name : </td>
+								<td colspan="2">Advocate Name : </td>
 								<td colspan="2"><input type="text" name="name" placeholder="" pattern="[A-Za-z ]+" required></td>
 							</tr>
 							<tr><td><br/></td></tr>
