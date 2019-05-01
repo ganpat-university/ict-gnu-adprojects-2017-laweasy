@@ -71,13 +71,13 @@
 							</tr>
 							<tr><td><br/></td></tr>
 							<tr>
-							<td colspan="2">state : </td>
+							<td colspan="2">city : </td>
 								<td colspan="2">    
-									<select name="state">
-										<option value="" disabled selected>Select State</option>
-										<option value="Ahmedabad">Ahmedabad</option>
+									<select name="city">
+										<option value="" disabled selected>Select city</option>
 										<option value="Mumbai">Mumbai</option>
-										<option value="Delhi">Delhi</option>
+										<option value="Ahmedabad">Ahmedabad</option>
+										<option value="pune">pune</option>
 									</select>
 								</td>
 							</tr>
@@ -102,14 +102,14 @@
 		$IssueRegarding = $_POST['IssueRegarding'];
 		$name = $_POST['name'];
 		$email = $_POST['email'];
-		$state = $_POST['state'];
+		$city = $_POST['city'];
 	
 
 		
 		
 		
-			$sql = "INSERT INTO getaquote(issue,IssueRegarding,name,email,state)
-				VALUES ('$issue','$IssueRegarding','$name','$email','$state')";
+			$sql = "INSERT INTO getaquote(issue,IssueRegarding,name,email,city)
+				VALUES ('$issue','$IssueRegarding','$name','$email','$city')";
 				
 				
 				if ($con->query($sql) === TRUE) {

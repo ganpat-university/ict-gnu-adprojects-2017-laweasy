@@ -22,13 +22,13 @@
 							</tr>
 							<tr><td><br/></td></tr>
 							<tr>
-							<td colspan="2">state : </td>
+							<td colspan="2">city : </td>
 								<td colspan="2">    
-									<select name="state">
-										<option value="" disabled selected>Select State</option>
-										<option value="Ahmedabad">Ahmedabad</option>
+									<select name="city">
+										<option value="" disabled selected>Select city</option>
 										<option value="Mumbai">Mumbai</option>
-										<option value="Delhi">Delhi</option>
+										<option value="Ahmedabad">Ahmedabad</option>
+										<option value="pune">pune</option>
 									</select>
 								</td>
 							</tr>
@@ -94,15 +94,15 @@
 	{
 		require 'Connection.php';
 		$name = $_POST['name'];
-		$state = $_POST['state'];
+		$city = $_POST['city'];
 		$AreaOfLaw = $_POST['AreaOfLaw'];
 		$email = $_POST['email'];
 
 		
 		
 		
-			$sql = "INSERT INTO talktoalawyer(Name,state,AreaOfLaw,email)
-				VALUES ('$name','$state','$AreaOfLaw','$email')";
+			$sql = "INSERT INTO talktoalawyer(Name,city,AreaOfLaw,email)
+				VALUES ('$name','$city','$AreaOfLaw','$email')";
 				
 				if ($con->query($sql) === TRUE) {
 
